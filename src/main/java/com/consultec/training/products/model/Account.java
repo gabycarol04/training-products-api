@@ -1,4 +1,4 @@
-package com.bgeneral.training.products.model;
+package com.consultec.training.products.model;
 
 import java.util.ArrayList;
 

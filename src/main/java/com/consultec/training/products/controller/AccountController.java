@@ -1,11 +1,10 @@
-package com.bgeneral.training.products.controller;
+package com.consultec.training.products.controller;
 
+import com.consultec.training.products.model.Account;
 import java.util.ArrayList;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
-
-import com.bgeneral.training.products.model.Account;
 
 @RestController
 public class AccountController {
