@@ -12,7 +12,7 @@ public class AccountController {
 	@GetMapping(value = "/test")
 	public String test() {
 
-		return "Siempre Listos 2020";
+		return "Siempre Listos Junio 2021";
 	}
 
 	@GetMapping(value = "/accounts")
