@@ -25,3 +25,20 @@
 - GET /accounts
 
 Se incluye colección de Postman
+
+## Construcción del proyecto
+
+### Compilación usando Maven Wrapper
+```
+$ ./mvnw clean package
+```
+
+### Ejecución usando Maven Wrapper
+```
+$ ./mvnw spring-boot:run
+```
+
+### Ejecución usando Java
+```
+$ java -jar target/products-api-1.0.0-SNAPSHOT.jar
+```
