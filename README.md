@@ -1,29 +1,27 @@
-# README #
+# training-products-api
 
-This README would normally document whatever steps are necessary to get your application up and running.
+## Información del proyecto
 
-### What is this repository for? ###
+### Framework
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+- Spring Boot 2.5.2
 
-### How do I get set up? ###
+### Herramientas
 
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
+- Java 11
+- Maven Wrapper 3.8.1
 
-### Contribution guidelines ###
+### Dependencias
 
-* Writing tests
-* Code review
-* Other guidelines
+- Lombok
+- Spring Boot DevTools
+- Spring Web
 
-### Who do I talk to? ###
+## Información del API
 
-* Repo owner or admin
-* Other community or team contact
+- Port 8082
+- Context Path = /training/api
+- GET /test
+- GET /accounts
+
+Se incluye colección de Postman
