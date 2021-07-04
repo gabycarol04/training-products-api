@@ -25,3 +25,20 @@
 - GET /accounts
 
 Se incluye colección de Postman
+
+## Construcción del proyecto
+
+### Compilación usando Gradle Wrapper
+```
+$ ./gradlew clean build
+```
+
+### Ejecución usando Gradle Wrapper
+```
+$ ./gradlew bootRun
+```
+
+### Ejecución usando Java
+```
+$ java -jar build/libs/products-api-1.0.0-SNAPSHOT.jar
+```
